@@ -1,0 +1,151 @@
+<div class="board">
+  <header class="todo-header-first">
+    <div class="logo">
+      <img src="assets/logo.png" alt="IDO logo" />
+      <span class="photo-caption">I can do it!</span>
+    </div>
+  
+     <div class="right-header-group">
+     
+      <div class="search-bar-container">
+        <input
+          class="search-input"
+          type="text"
+          placeholder="What are you looking for?"
+          [(ngModel)]="searchQuery"
+          (input)="filterTasks()"
+        />
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+        
+      </div>
+      
+  
+      <button class="add-task-button" (click)="openTaskModal()">＋</button>
+  
+      <div class="user-info" (click)="toggleDropdown()" tabindex="0">
+        <img [src]="user?.avatarUrl" alt="Avatar" class="avatar" />
+        <div class="dropdown-menu" *ngIf="dropdownOpen">
+          <div class="menu-left"><img [src]="user?.avatarUrl" alt="Avatar" class="avatar-inside" /></div>
+          <div>
+            <p class="email">{{ user?.email }}</p>
+          <button class="logout-btn" (click)="logout()">
+            Log Out
+            <span class="logout-icon">➡️</span>
+          </button>
+          </div>
+        
+        </div>        
+      </div>
+    </div>
+  </header>
+  
+  <div class="todo-header" *ngIf="showBanner">
+    <span class="tagline">"Anything that can go wrong, will go wrong!"</span>
+    <button class="close-btn" (click)="toggleBanner()">✕</button>
+  </div>
+  
+ 
+  <button class="info-icon" *ngIf="!showBanner" (click)="toggleBanner()">i</button>
+  
+    <div class="columns">
+      <div *ngFor="let column of todoColumns; let i = index" class="column">
+        <div class="column-header" [ngClass]="'header-' + i">
+          <span class="icon">
+            <ng-container [ngSwitch]="i">
+              <span *ngSwitchCase="0">📋</span>
+              <span *ngSwitchCase="1">📝</span>
+              <span *ngSwitchCase="2">✅</span>
+            </ng-container>
+          </span>
+          {{ column.title }}
+        </div>
+  
+        <div
+            cdkDropList
+            [cdkDropListData]="getColumnData(i)"
+            [cdkDropListConnectedTo]="connectedDropListsIds(i)"
+            (cdkDropListDropped)="drop($event)"
+            [id]="'column-' + i"
+            class="task-list"
+        >
+        <div *ngFor="let item of column.items; let taskIndex = index" cdkDrag class="card">
+
+          <div class="field" (click)="startEditing(item, 'title')" *ngIf="item.editingField !== 'title'">
+            <strong [ngClass]="{ 'empty-title': !item.title }" [innerHTML]="highlightSearch(item.title || 'Click to add title...')"></strong>
+          </div>
+          
+          <input
+            class="input"
+            placeholder="Title"
+            *ngIf="item.editingField === 'title'"
+            [(ngModel)]="item.editSnapshot!.title"
+            (blur)="finishEditing(item, column, 'title')"
+            (keyup.enter)="finishEditing(item, column, 'title')"
+            autofocus
+          />
+        
+          <div class="field" (click)="startEditing(item, 'category')" *ngIf="item.editingField !== 'category'">
+            <span class="label">Category</span> {{ item.category }}
+          </div>
+          <input
+            class="input"
+            *ngIf="item.editingField === 'category'"
+            [(ngModel)]="item.editSnapshot!.category"
+            (blur)="finishEditing(item, column, 'category')"
+            (keyup.enter)="finishEditing(item, column, 'category')"
+          />
+        
+          <div class="field" (click)="startEditing(item, 'dueDate')" *ngIf="item.editingField !== 'dueDate'">
+            <span class="label">Due Date</span> {{ item.dueDate ? (item.dueDate | date:'dd/MM/yyyy') : 'None' }}
+          </div>
+          <input
+            type="datetime-local"
+            class="input"
+            *ngIf="item.editingField === 'dueDate'"
+            [(ngModel)]="item.editSnapshot!.dueDate"
+            (blur)="finishEditing(item, column, 'dueDate')"
+            (keyup.enter)="finishEditing(item, column, 'dueDate')"
+          />
+        
+          <div class="field" (click)="startEditing(item, 'estimate')" *ngIf="item.editingField !== 'estimate'">
+            <span class="label">Estimate</span> {{ item.estimate }}
+          </div>
+          <input
+            class="input"
+            *ngIf="item.editingField === 'estimate'"
+            [(ngModel)]="item.editSnapshot!.estimate"
+            (blur)="finishEditing(item, column, 'estimate')"
+            (keyup.enter)="finishEditing(item, column, 'estimate')"
+          />
+        
+          <div class="field" (click)="startEditing(item, 'importance')" *ngIf="item.editingField !== 'importance'">
+            <span class="label">Importance</span>
+            <span [ngClass]="{
+              'badge-high': item.importance === 'High',
+              'badge-medium': item.importance === 'Medium',
+              'badge-low': item.importance === 'Low'
+            }">
+              {{ item.importance || 'None' }}
+            </span>
+          </div>
+          <select
+            class="input"
+            *ngIf="item.editingField === 'importance'"
+            [(ngModel)]="item.editSnapshot!.importance"
+            (blur)="finishEditing(item, column, 'importance')"
+          >
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select>
+        
+        </div>
+        
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  

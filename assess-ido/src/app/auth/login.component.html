@@ -1,0 +1,27 @@
+<div class="login-container">
+  <div class="left-panel">
+    <img src="assets/logo.png" alt="IDO Logo" class="logo" />
+    <h2>i can do it!</h2>
+    <div class="illustration">
+      <img src="assets/left-graphic.png" alt="Illustration" />
+    </div>
+  </div>
+
+  <div class="right-panel">
+    <form (ngSubmit)="loginOrRegister(emailInput, passwordInput)" class="login-form">
+      <h1>Time to Work!</h1>
+      <label>Email</label>
+      <input #emailInput type="email" [(ngModel)]="email" name="email" required
+        (input)="emailInput.setCustomValidity('')" />
+
+      <label>Password</label>
+      <input #passwordInput type="password" [(ngModel)]="password" name="password" required
+        (input)="passwordInput.setCustomValidity('')" />
+
+      <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+
+      <button type="submit">SIGN IN</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:dtos\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\migrations\\20250604072115_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:migrations\\20250604072115_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|c:\\users\\shaza.attieh\\desktop\\angula_practice\\assessment\\todoapp\\todoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9344701D-BA31-4247-952D-7BB95163028A}|TodoApp.csproj|solutionrelative:todoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:46:02.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:09:11.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:25:11.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Services\\AuthService.cs*",
+              "RelativeToolTip": "Services\\AuthService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:34:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:25:25.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:11:11.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:28:53.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T07:10:05.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\CreateTaskDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateTaskDto.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\CreateTaskDto.cs",
+              "RelativeToolTip": "DTOs\\CreateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:26:45.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:07:24.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:08:12.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TaskDto.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "DTOs\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:30:36.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:29:55.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\UpdateTaskDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateTaskDto.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\UpdateTaskDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:27:10.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:33:38.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TodoApp.csproj",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\TodoApp.csproj",
+              "RelativeDocumentMoniker": "TodoApp.csproj",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\TodoApp.csproj",
+              "RelativeToolTip": "TodoApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-04T07:08:48.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:34:25.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250604072115_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Migrations\\20250604072115_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250604072115_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\shaza.attieh\\Desktop\\angula_practice\\Assessment\\TodoApp\\Migrations\\20250604072115_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250604072115_InitialCreate.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T07:21:15.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
